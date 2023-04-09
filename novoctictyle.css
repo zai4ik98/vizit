@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans, sans-serif';
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Hero*/
+
+section#hero {
+    padding-top: calc(1px + 98 * ((100vw - 320px) / (1280 - 320)));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Forum', cursive;
+}
+
+#hero h1 {
+    font-weight: 300;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-family: 'Forum', cursive;
+}
+
+#hero p {
+    margin-top: calc(10px + 5 * ((100vw - 320px) / (1280 - 320)));
+    color: rgb(183, 183, 183);
+    font-size: 1.1rem;
+    font-family: 'Forum', cursive;
+
+}
+
+.ceti {
+    width: 50px;
+    height: 50px;
+    border-radius: 1%;
+    position: fixed;
+    right: 0;
+    top: 93%;
+    margin-right: calc(-20px + 20 * ((100vw - 320px) / (1280 - 320)));
+}
+
+.ceti1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 1%;
+    position: fixed;
+    right: 0;
+    top: 93%;
+    margin-right: calc(10px + 30* ((100vw - 320px) / (1280 - 320)));
+}
+
+.ceti2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 1%;
+    position: fixed;
+    right: 0;
+    top: 93%;
+    margin-right: calc(35px + 40 * ((100vw - 320px) / (1280 - 320)));
+    z-index: 2;
+}
+
+.rasilka {
+    width: 50px;
+    height: 50px;
+    border-radius: 1%;
+    position: fixed;
+    left: 0;
+    top: 93%;
+    margin-left: calc(8px + 30 * ((100vw - 320px) / (1280 - 320)));
+    z-index: 2;
+}
+
+.ras {
+    width: 50px;
+    height: 50px;
+    border-radius: 1%;
+    position: fixed;
+    left: 0;
+    top: 93%;
+    margin-left: calc(30px + 40 * ((100vw - 320px) / (1280 - 320)));
+    z-index: 2;
+    color: rgb(101, 103, 103);
+}
+
+
+
+a:visited {
+    color: rgb(135, 126, 128);
+    text-decoration: none;
+}
+

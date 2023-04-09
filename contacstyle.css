@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans, sans-serif';
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    < !---background-image: url(images/5.gif);
+    --- !>background-size: cover;
+    background-position: center;
+}
+
+/* HEADER */
+head {
+    position: relative;
+    padding: 0 2rem;
+}
+
+
+#particles-js {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -;
+}
+
+
+/*Hero*/
+section#hero {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: lighter font-weight:100;
+    font-family: 'Forum', cursive;
+    z-index: 1;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: lighter font-family: 'Forum', cursive;
+    font-weight: 100;
+    font-family: 'Forum', cursive;
+    z-index: 2;
+}
+
+#hero p {
+    color: rgb(139, 139, 139);
+    font-size: 1rem;
+    font-family: 'Forum', cursive;
+    font-weight: 100;
+    z-index: 2;
+}
+
+#hero h2 {
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: 'Forum', cursive;
+    z-index: 2;
+}
+
+#hero h4 {
+    z-index: 2;
+}
+
+.ceti {
+    width: 50px;
+    height: 50px;
+    border-radius: 1%;
+    position: fixed;
+    right: 0;
+    top: 93%;
+    margin-right: calc(-20px + 20 * ((100vw - 320px) / (1280 - 320)));
+}
+
+.ceti1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 1%;
+    position: fixed;
+    right: 0;
+    top: 93%;
+    margin-right: calc(10px + 30* ((100vw - 320px) / (1280 - 320)));
+}
+
+.ceti2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 1%;
+    position: fixed;
+    right: 0;
+    top: 93%;
+    margin-right: calc(35px + 40 * ((100vw - 320px) / (1280 - 320)));
+    z-index: 2;
+}
+
+.rasilka {
+    width: 50px;
+    height: 50px;
+    border-radius: 1%;
+    position: fixed;
+    left: 0;
+    top: 93%;
+    margin-left: calc(8px + 30 * ((100vw - 320px) / (1280 - 320)));
+    z-index: 2;
+}
+
+.ras {
+    width: 50px;
+    height: 50px;
+    border-radius: 1%;
+    position: fixed;
+    left: 0;
+    top: 93%;
+    margin-left: calc(30px + 40 * ((100vw - 320px) / (1280 - 320)));
+    z-index: 2;
+    color: rgb(101, 103, 103);
+}
+
+
+
+a:visited {
+    color: rgb(135, 126, 128);
+    text-decoration: none;
+}
+
